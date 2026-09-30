@@ -2,35 +2,37 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 
-// Efek Bunga Sakura Gugur
-const FallingPetals = () => {
-  const [petals, setPetals] = useState<Array<{ id: number; left: number; duration: number; size: number; delay: number }>>([]);
+// Efek Emoticon Love Gugur (Menggantikan Sakura)
+const FallingHearts = () => {
+  const [hearts, setHearts] = useState<Array<{ id: number; left: number; duration: number; size: number; delay: number; icon: string }>>([]);
 
   useEffect(() => {
+    const icons = ['💖', '💗', '💕', '❤️️', '🌸', '✨'];
     const generated = Array.from({ length: 30 }).map((_, i) => ({
       id: i,
       left: Math.random() * 100,
       duration: 6 + Math.random() * 6,
-      size: 14 + Math.random() * 16,
+      size: 16 + Math.random() * 16,
       delay: Math.random() * 5,
+      icon: icons[Math.floor(Math.random() * icons.length)],
     }));
-    setPetals(generated);
+    setHearts(generated);
   }, []);
 
   return (
     <div className="fixed inset-0 pointer-events-none overflow-hidden z-50">
-      {petals.map((p) => (
+      {hearts.map((h) => (
         <span
-          key={p.id}
+          key={h.id}
           className="absolute animate-fall opacity-80"
           style={{
-            left: `${p.left}%`,
-            animationDuration: `${p.duration}s`,
-            animationDelay: `${p.delay}s`,
-            fontSize: `${p.size}px`,
+            left: `${h.left}%`,
+            animationDuration: `${h.duration}s`,
+            animationDelay: `${h.delay}s`,
+            fontSize: `${h.size}px`,
           }}
         >
-          🌸
+          {h.icon}
         </span>
       ))}
       <style jsx global>{`
@@ -60,7 +62,7 @@ export default function Home() {
   const [pin, setPin] = useState('');
   const [isUnlocked, setIsUnlocked] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
-  const CORRECT_PIN = '111111'; // PIN sesuai di video
+  const CORRECT_PIN = '230126'; // PIN Baru: 230126
 
   // Status Buka Hadiah
   const [giftOpened, setGiftOpened] = useState(false);
@@ -99,10 +101,10 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#1c0f18] text-pink-100 flex flex-col items-center justify-center relative p-4 font-sans overflow-x-hidden">
-      {/* Efek Bunga Gugur */}
-      <FallingPetals />
+      {/* Efek Love Gugur */}
+      <FallingHearts />
 
-      {/* File Lagu yang Kamu Kirim */}
+      {/* File Lagu */}
       <audio ref={audioRef} src="/pretty.mp3.mp3" loop />
 
       {/* 1. TAMPILAN MASUKKAN PIN / PASSCODE */}
@@ -150,8 +152,8 @@ export default function Home() {
             <div className="w-16 h-16" />
           </div>
 
-          <p className="text-xs text-pink-400 mt-6">Hint: 111111 💕</p>
-          {errorMsg && <p className="text-xs text-red-400 mt-2 font-medium">{errorMsg}</p>}
+          {/* Hint Dihapus */}
+          {errorMsg && <p className="text-xs text-red-400 mt-4 font-medium">{errorMsg}</p>}
         </div>
       ) : !giftOpened ? (
         /* 2. TAMPILAN KOTAK KADO */
@@ -170,27 +172,24 @@ export default function Home() {
           </button>
         </div>
       ) : (
-        /* 3. TAMPILAN UTAMA (KATA-KATA AWAL KEMBALI LENGKAP) */
+        /* 3. TAMPILAN UTAMA */
         <div className="w-full max-w-md space-y-6 animate-fade-in py-8">
-          {/* Header Ucapan */}
           <div className="text-center space-y-2">
             <span className="text-xs uppercase tracking-widest text-pink-400 font-semibold">
               🌸 Your Special Day 🌸
             </span>
             <h1 className="text-3xl font-extrabold text-pink-100 tracking-wider">
-              HAPPY 
+              HAPPY BIRTHDAY KIMMY
             </h1>
             <p className="text-xs text-pink-300/80">Hari paling istimewa</p>
           </div>
 
-          {/* Kata-kata Utama */}
           <div className="bg-[#271424]/90 p-5 rounded-2xl border border-pink-500/20 text-center shadow-lg">
             <p className="text-sm italic text-pink-100 leading-relaxed">
               "Wishing you happiness, good health, and all your dreams come true. ✨🤍"
             </p>
           </div>
 
-          {/* Surat Pesan Lengkap */}
           <div className="bg-[#271424]/90 p-6 rounded-2xl border border-pink-500/20 space-y-4 text-xs text-pink-200 leading-relaxed shadow-lg">
             <h3 className="text-sm font-bold text-pink-300 text-center border-b border-pink-500/20 pb-2">
               💌 A Letter For You
@@ -207,7 +206,7 @@ export default function Home() {
             </p>
             <div className="text-right pt-2 text-pink-300 font-semibold">
               With all my love, <br />
-              <span className="text-pink-100">your girlfriend 🤍</span>
+              <span className="text-pink-100">your boyfriend 🤍</span>
             </div>
           </div>
         </div>
