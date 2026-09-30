@@ -141,15 +141,6 @@ export default function Home() {
             <p className="text-right text-xs font-semibold text-pink-300">- With all my love 🤍</p>
           </div>
 
-          {/* Photo Memories */}
-          <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-6 rounded-3xl text-center space-y-4">
-            <h2 className="text-xl font-semibold text-pink-200">Our Photo Memories 📸</h2>
-            <div className="p-3 bg-white text-gray-800 rounded-2xl shadow-lg transform -rotate-2 hover:rotate-0 transition duration-300">
-              <img src="/1.jpeg" alt="Memories" className="w-full h-56 object-cover rounded-xl mb-2" />
-              <p className="text-xs text-gray-600 font-serif">iloveeusooooo0Ooomuch 💕</p>
-            </div>
-          </div>
-
           {/* Reasons I'm Grateful for You (Shake Jar) */}
           <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-6 rounded-3xl text-center space-y-4">
             <h2 className="text-xl font-semibold text-pink-200">Reasons I'm Grateful for You 🫙</h2>
