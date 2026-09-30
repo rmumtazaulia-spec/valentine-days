@@ -176,17 +176,17 @@ export default function Home() {
         <div className="w-full max-w-md space-y-6 animate-fade-in py-8">
           <div className="text-center space-y-2">
             <span className="text-xs uppercase tracking-widest text-pink-400 font-semibold">
-              🌸 Your Special Day 🌸
+              🌸 HI LOVE 🌸
             </span>
             <h1 className="text-3xl font-extrabold text-pink-100 tracking-wider">
-              HAPPY BIRTHDAY KIMMY
+              HAPPY NATIONAL BOYFRIEND DAY YAAAA
             </h1>
-            <p className="text-xs text-pink-300/80">Hari paling istimewa</p>
+            <p className="text-xs text-pink-300/80"> thank u for loving me and being the safest, warmest place for my heart</p>
           </div>
 
           <div className="bg-[#271424]/90 p-5 rounded-2xl border border-pink-500/20 text-center shadow-lg">
             <p className="text-sm italic text-pink-100 leading-relaxed">
-              "Wishing you happiness, good health, and all your dreams come true. ✨🤍"
+              "i love you from the deepest of my heart.🤍"
             </p>
           </div>
 
@@ -194,7 +194,7 @@ export default function Home() {
             <h3 className="text-sm font-bold text-pink-300 text-center border-b border-pink-500/20 pb-2">
               💌 A Letter For You
             </h3>
-            <p className="italic text-pink-300 font-medium">My dearest Kimmy,</p>
+            <p className="italic text-pink-300 font-medium">My dearest agung,</p>
             <p>
               On this most special day, I want you to know that every single day with you is a gift beyond measure. You bring light into every corner of my life.
             </p>
