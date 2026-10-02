@@ -110,7 +110,7 @@ export default function Home() {
       {/* 1. TAMPILAN MASUKKAN PIN / PASSCODE */}
       {!isUnlocked ? (
         <div className="w-full max-w-sm flex flex-col items-center bg-[#251322]/80 backdrop-blur-md p-6 rounded-3xl border border-pink-500/20 shadow-2xl">
-          <div className="text-4xl mb-2"> hi my beloved boyfieee </div>
+          <div className="text-4xl mb-2"> </div>
           <h2 className="text-xl font-bold text-pink-100"> i have a lil letter for u </h2>
           <p className="text-xs text-pink-300/70 mb-6">enter the secret code</p>
 
