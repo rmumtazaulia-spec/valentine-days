@@ -181,7 +181,7 @@ export default function Home() {
             <h1 className="text-3xl font-extrabold text-pink-100 tracking-wider">
               HAPPY NATIONAL BOYFRIEND DAY YAAAA
             </h1>
-            <p className="text-xs text-pink-300/80">i love you from the deepest of my heart</p>
+            <p className="text-xs text-pink-300/80">i love you from the deepest of my heartt ma beloved boyfiee 😸 </p>
           </div>
 
           <div className="bg-[#271424]/90 p-5 rounded-2xl border border-pink-500/20 text-center shadow-lg">
@@ -200,7 +200,7 @@ export default function Home() {
 thank u for loving me even in the moment im not easy to love.
             </p>
             <p>
-              HAHAHSHW PLS JANGAN KETAWA DENGER SOUDNNYA YA
+              HAHAHSHW PLS JANGAN KETAWA DENGER SOUNDNYA YAAA
 AKU KEINGET MALEM KEMARIN ITUUU, aku bilang aku keinget km di lagu ini itu maksudnyaa kayaaaaaa.... i'm soooososoo happy and glad for every single moment that we spend together sayang from the day we firts got close until now and even   foreveer....but idk what future holds for us, or what kind of problems we'll have to face along the way, tapi aku berharap bngt kita bisaaa lewatin semua nya berduaaaaaaaaaaa seduaaaa? nazi ayam kecapz sedua enakz btw🤤
 uummmm i hope i can  keep call u mine until my very last breath and i wanna be by ur side trough every situation, no matter what happens.
             </p>
