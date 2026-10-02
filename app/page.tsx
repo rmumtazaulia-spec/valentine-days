@@ -186,7 +186,7 @@ export default function Home() {
 
           <div className="bg-[#271424]/90 p-5 rounded-2xl border border-pink-500/20 text-center shadow-lg">
             <p className="text-sm italic text-pink-100 leading-relaxed">
-              thank u for loving me and being the safest, warmest place for my heart🤍
+              thank u for loving me and being the safest, warmest place for my heart 🤍
             </p>
           </div>
 
