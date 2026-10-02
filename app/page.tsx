@@ -196,17 +196,23 @@ export default function Home() {
             </h3>
             <p className="italic text-pink-300 font-medium">My dearest agung,</p>
             <p>
-              On this most special day, I want you to know that every single day with you is a gift beyond measure. You bring light into every corner of my life.
+              thaank u soooO0oo much for being such a good boyfriend sayang🙆🏻‍♀️🤍, feel soooooo grateful that i get to have a relationship with u....
+thank u for loving me even in the moment im not easy to love.
             </p>
             <p>
-              Your laughter is the most beautiful music I have ever heard. Thank you for being you — with all your uniqueness, the gentleness of your heart, and a spirit that never fades.
+              HAHAHSHW PLS JANGAN KETAWA DENGER SOUDNNYA YA
+AKU KEINGET MALEM KEMARIN ITUUU, aku bilang aku keinget km di lagu ini itu maksudnyaa kayaaaaaa.... i'm soooososoo happy and glad for every single moment that we spend together sayang from the day we firts got close until now and even   foreveer....but idk what future holds for us, or what kind of problems we'll have to face along the way, tapi aku berharap bngt kita bisaaa lewatin semua nya berduaaaaaaa? seduaaaa? nazi ayam kecapz sedua enakz btw🤤
+uummmm i hope i can  keep call u mine until my very last breath and i wanna be by ur side trough every situation, no matter what happens.
             </p>
             <p>
-              On this birthday of yours, I wish that all your dreams come true. You deserve every beautiful thing this world has to offer.
+              makaasi uda jadi pacar akooo yang selalu bisa aku andalin yaaaapp, thank u soooowmuch for always taking care of me and remind me abt everything, u always made my day sayang🙆🏻‍♀️
+makaasi bngt uda kasi aku banya hal yang aku gatau aku bisa dapet dimana kalo tida sama kamu sekarang..... u always making me feel like im enough to be loved☹️
+makasi suda jadi pacar yang sabar bngt buat ngasi tau aku kalo aku salaah even when it's probably not easy for u...
+iloveeuusoooomuch, i love every part of u, every little thing that make u who u are and every part of ur life.
             </p>
             <div className="text-right pt-2 text-pink-300 font-semibold">
               With all my love, <br />
-              <span className="text-pink-100">your boyfriend 🤍</span>
+              <span className="text-pink-100">your girlfriend 🤍</span>
             </div>
           </div>
         </div>
