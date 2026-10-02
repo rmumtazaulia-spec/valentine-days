@@ -192,7 +192,7 @@ export default function Home() {
 
           <div className="bg-[#271424]/90 p-6 rounded-2xl border border-pink-500/20 space-y-4 text-xs text-pink-200 leading-relaxed shadow-lg">
             <h3 className="text-sm font-bold text-pink-300 text-center border-b border-pink-500/20 pb-2">
-              💌 A Letter For You
+               a Letter For You
             </h3>
             <p className="italic text-pink-300 font-medium">my dearest agung,</p>
             <p>
