@@ -110,8 +110,8 @@ export default function Home() {
       {/* 1. TAMPILAN MASUKKAN PIN / PASSCODE */}
       {!isUnlocked ? (
         <div className="w-full max-w-sm flex flex-col items-center bg-[#251322]/80 backdrop-blur-md p-6 rounded-3xl border border-pink-500/20 shadow-2xl">
-          <div className="text-4xl mb-2"> </div>
-          <h2 className="text-xl font-bold text-pink-100"> here is a lil letter for u </h2>
+          <div className="text-4xl mb-2"> hi my beloved boyfieee </div>
+          <h2 className="text-xl font-bold text-pink-100"> i have a lil letter for u </h2>
           <p className="text-xs text-pink-300/70 mb-6">enter the secret code</p>
 
           {/* Bulatan Pin */}
@@ -192,7 +192,7 @@ export default function Home() {
 
           <div className="bg-[#271424]/90 p-6 rounded-2xl border border-pink-500/20 space-y-4 text-xs text-pink-200 leading-relaxed shadow-lg">
             <h3 className="text-sm font-bold text-pink-300 text-center border-b border-pink-500/20 pb-2">
-               a Letter For You
+              here is a letter for you
             </h3>
             <p className="italic text-pink-300 font-medium">my dearest agung,</p>
             <p>
@@ -206,7 +206,7 @@ uummmm i hope i can  keep call u mine until my very last breath and i wanna be b
             </p>
             <p>
               makaasi uda jadi pacar akooo yang selalu bisa aku andalin yaaaapp, thank u soooowmuch for always taking care of me and remind me abt everything, u always made my day sayang🙆🏻‍♀️
-makaasi bngt uda kasi aku banya hal yang aku gatau aku bisa dapet dimana kalo tida sama kamu sekarang..... u always making me feel like im enough to be loved☹️
+makaasi bngt uda kasi aku banya hal yang aku gatau aku bisa dapet dimana kalo tida sama kamu sekarang..... u always make me feel like im enough to be loved☹️
 makasi suda jadi pacar yang sabar bngt buat ngasi tau aku kalo aku salaah even when it's probably not easy for u...
 iloveeuusoooomuch, i love every part of u, every little thing that make u who u are and every part of ur life.
             </p>
