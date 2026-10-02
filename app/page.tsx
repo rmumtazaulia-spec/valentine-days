@@ -110,9 +110,9 @@ export default function Home() {
       {/* 1. TAMPILAN MASUKKAN PIN / PASSCODE */}
       {!isUnlocked ? (
         <div className="w-full max-w-sm flex flex-col items-center bg-[#251322]/80 backdrop-blur-md p-6 rounded-3xl border border-pink-500/20 shadow-2xl">
-          <div className="text-4xl mb-2">🌷</div>
-          <h2 className="text-xl font-bold text-pink-100"> HI LOVEEE!!! </h2>
-          <p className="text-xs text-pink-300/70 mb-6">Enter the secret code</p>
+          <div className="text-4xl mb-2"> HAAWWO SAYANG </div>
+          <h2 className="text-xl font-bold text-pink-100"> here is a lil letter for u </h2>
+          <p className="text-xs text-pink-300/70 mb-6">enter the secret code</p>
 
           {/* Bulatan Pin */}
           <div className="flex gap-3 mb-6">
@@ -159,7 +159,7 @@ export default function Home() {
         /* 2. TAMPILAN KOTAK KADO */
         <div className="flex flex-col items-center animate-fade-in">
           <p className="text-pink-200 mb-6 text-sm font-medium tracking-wide">
-            Tap the gift box to open it 🎁
+            Tap heree! 
           </p>
           <button
             onClick={() => {
@@ -168,7 +168,7 @@ export default function Home() {
             }}
             className="w-36 h-36 bg-pink-500/20 border-2 border-pink-400 rounded-3xl flex items-center justify-center text-6xl shadow-xl hover:scale-105 transition-all cursor-pointer active:scale-95 animate-bounce"
           >
-            🎁
+            ❤️️
           </button>
         </div>
       ) : (
@@ -176,7 +176,7 @@ export default function Home() {
         <div className="w-full max-w-md space-y-6 animate-fade-in py-8">
           <div className="text-center space-y-2">
             <span className="text-xs uppercase tracking-widest text-pink-400 font-semibold">
-              🌸 HI LOVE 🌸
+               HI MY LOVE 
             </span>
             <h1 className="text-3xl font-extrabold text-pink-100 tracking-wider">
               HAPPY NATIONAL BOYFRIEND DAY YAAAA
