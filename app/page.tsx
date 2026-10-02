@@ -7,7 +7,7 @@ const FallingHearts = () => {
   const [hearts, setHearts] = useState<Array<{ id: number; left: number; duration: number; size: number; delay: number; icon: string }>>([]);
 
   useEffect(() => {
-    const icons = ['💖', '💗', '💕', '❤️️', '🌸'];
+    const icons = ['💗'];
     const generated = Array.from({ length: 30 }).map((_, i) => ({
       id: i,
       left: Math.random() * 100,
@@ -181,12 +181,12 @@ export default function Home() {
             <h1 className="text-3xl font-extrabold text-pink-100 tracking-wider">
               HAPPY NATIONAL BOYFRIEND DAY YAAAA
             </h1>
-            <p className="text-xs text-pink-300/80"> thank u for loving me and being the safest, warmest place for my heart</p>
+            <p className="text-xs text-pink-300/80">i love you from the deepest of my heart</p>
           </div>
 
           <div className="bg-[#271424]/90 p-5 rounded-2xl border border-pink-500/20 text-center shadow-lg">
             <p className="text-sm italic text-pink-100 leading-relaxed">
-              "i love you from the deepest of my heart.🤍"
+              thank u for loving me and being the safest, warmest place for my heart🤍
             </p>
           </div>
 
@@ -194,7 +194,7 @@ export default function Home() {
             <h3 className="text-sm font-bold text-pink-300 text-center border-b border-pink-500/20 pb-2">
               💌 A Letter For You
             </h3>
-            <p className="italic text-pink-300 font-medium">My dearest agung,</p>
+            <p className="italic text-pink-300 font-medium">my dearest agung,</p>
             <p>
               thaank u soooO0oo much for being such a good boyfriend sayang🙆🏻‍♀️🤍, feel soooooo grateful that i get to have a relationship with u....
 thank u for loving me even in the moment im not easy to love.
@@ -211,7 +211,7 @@ makasi suda jadi pacar yang sabar bngt buat ngasi tau aku kalo aku salaah even w
 iloveeuusoooomuch, i love every part of u, every little thing that make u who u are and every part of ur life.
             </p>
             <div className="text-right pt-2 text-pink-300 font-semibold">
-              With all my love, <br />
+              with all my love, <br />
               <span className="text-pink-100">your girlfriend 🤍</span>
             </div>
           </div>
