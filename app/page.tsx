@@ -7,7 +7,7 @@ const FallingHearts = () => {
   const [hearts, setHearts] = useState<Array<{ id: number; left: number; duration: number; size: number; delay: number; icon: string }>>([]);
 
   useEffect(() => {
-    const icons = ['💖', '💗', '💕', '❤️️', '🌸', '✨'];
+    const icons = ['💖', '💗', '💕', '❤️️', '🌸'];
     const generated = Array.from({ length: 30 }).map((_, i) => ({
       id: i,
       left: Math.random() * 100,
@@ -87,7 +87,7 @@ export default function Home() {
         if (newPin === CORRECT_PIN) {
           setTimeout(() => setIsUnlocked(true), 300);
         } else {
-          setErrorMsg('Wrong code, try again 💖');
+          setErrorMsg('wrong code, try again 💖');
           setTimeout(() => setPin(''), 800);
         }
       }
@@ -110,7 +110,7 @@ export default function Home() {
       {/* 1. TAMPILAN MASUKKAN PIN / PASSCODE */}
       {!isUnlocked ? (
         <div className="w-full max-w-sm flex flex-col items-center bg-[#251322]/80 backdrop-blur-md p-6 rounded-3xl border border-pink-500/20 shadow-2xl">
-          <div className="text-4xl mb-2"> HAAWWO SAYANG </div>
+          <div className="text-4xl mb-2"> .... </div>
           <h2 className="text-xl font-bold text-pink-100"> here is a lil letter for u </h2>
           <p className="text-xs text-pink-300/70 mb-6">enter the secret code</p>
 
@@ -159,7 +159,7 @@ export default function Home() {
         /* 2. TAMPILAN KOTAK KADO */
         <div className="flex flex-col items-center animate-fade-in">
           <p className="text-pink-200 mb-6 text-sm font-medium tracking-wide">
-            Tap heree! 
+            tap heree! 
           </p>
           <button
             onClick={() => {
@@ -176,7 +176,7 @@ export default function Home() {
         <div className="w-full max-w-md space-y-6 animate-fade-in py-8">
           <div className="text-center space-y-2">
             <span className="text-xs uppercase tracking-widest text-pink-400 font-semibold">
-               HI MY LOVE 
+               HIIII MY LOVE!!!
             </span>
             <h1 className="text-3xl font-extrabold text-pink-100 tracking-wider">
               HAPPY NATIONAL BOYFRIEND DAY YAAAA
