@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "happy national bf day muyaaaaahh",
+  title: "muyah national bf day",
   description: "ilovveeeuusoooooOOoooomuch❤️",
 };
 
